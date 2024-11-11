@@ -8,6 +8,7 @@ pipeline {
                 ls -ltr
                 pwd
                 each 'hello from git webhook event'
+                '''
             }
         }
         stage('Test') {
